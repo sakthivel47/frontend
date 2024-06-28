@@ -1,0 +1,52 @@
+/* General Styles */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 100%;
+  padding: 40px 20px; /* Adjust padding for better responsiveness */
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 15px 25px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  border-radius: 50%;
+}
+
+/* Navbar Styles */
+.navbar,
+.custom-navbar {
+  background-color: #488b8f;
+}
+
+.navbar-brand {
+  color: #faf9f9;
+  font-family: Georgia;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: #faf9f9;
+  font-family: Georgia;
+  font-size: large;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #faf9f9; /* Change to your desired hover color */
+}
+

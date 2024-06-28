@@ -1,0 +1,31 @@
+.card-container {
+  width: 50%; /* Adjust width as needed */
+  max-width: 300px; /* Optional: Set a max-width for better responsiveness */
+  margin: 0 auto; /* Center the card horizontally */
+}
+
+.custom-button {
+  background-color: #488b8f; /* Default Bootstrap primary color */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+  margin: 0;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0.25rem;
+}
+
+.custom-button:hover {
+  background-color: #488b8f; /* Darker shade for hover */
+  color: white;
+}
+
+.status-container {
+  width: 50%;
+  max-width: 600px;
+  max-height: 600px;
+  margin: 20px auto; /* Center the card and add some margin for spacing */
+}
